@@ -26,12 +26,12 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## If matrix data data not empty
-## Receives the cached data for the matrix data
+## If matrix data not empty
+## Receives the cached data 
 ## Use the solve function to compute the inverse
 ## Return the result
 
-cacheSolve <- function(x=matrix(), ...) {
+cacheSolve <- function(x = matrix(), ...) {
         ## Return a matrix that is the inverse of 'x'
       m<-x$getmatrix()
       if(!is.null(m)){
